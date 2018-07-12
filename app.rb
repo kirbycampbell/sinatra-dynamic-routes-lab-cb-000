@@ -16,7 +16,7 @@ class App < Sinatra::Base
     @num = params[:number].to_i
     @phrase = params[:phrase]
     num = @num.to_i
-    @num.times do
+    num.times do
       "a"
     end
     #statement = Array.new(@num, @phrase).join("\n")
