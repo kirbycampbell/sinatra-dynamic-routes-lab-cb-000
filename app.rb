@@ -39,7 +39,7 @@ class App < Sinatra::Base
     elsif operation == "multiply"
       "#{n1 * n2}"
     elsif operation == "divide"
-      "#{n1 / n2}"
+      "#{n1.to_f / n2.to_f}"
     else
       "Not Valid"
     end
