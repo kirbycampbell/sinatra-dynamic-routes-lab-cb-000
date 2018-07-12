@@ -41,7 +41,7 @@ class App < Sinatra::Base
     elsif operation == "divide"
       "#{n1.to_f / n2.to_f}"
     else
-      "Not Valid"
+      "Not a Valid Operation or Number.  Please Fix yo self..."
     end
   end
 
