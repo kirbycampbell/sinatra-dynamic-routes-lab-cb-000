@@ -16,7 +16,6 @@ class App < Sinatra::Base
     @num = params[:number].to_i
     @phrase = params[:phrase]
     statement = Array.new(@num, @phrase).join("\n")
-    end
   end
 
 end
